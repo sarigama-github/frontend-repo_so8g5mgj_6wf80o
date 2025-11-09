@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import SeriesShowcase from './components/SeriesShowcase.jsx';
+import Characters from './components/Characters.jsx';
 import EpisodeGrid from './components/EpisodeGrid.jsx';
+import Lore from './components/Lore.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App() {
@@ -13,7 +15,9 @@ export default function App() {
       <main className="relative">
         <Hero />
         <SeriesShowcase />
+        <Characters />
         <EpisodeGrid />
+        <Lore />
       </main>
       <Footer />
     </div>
